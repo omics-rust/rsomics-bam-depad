@@ -12,6 +12,11 @@ description = "Convert padded to unpadded BAM coordinates — Rust port of samto
 name = "rsomics-bam-depad"
 path = "src/main.rs"
 
+
+[lib]
+name = "rsomics_bam_depad"
+path = "src/lib.rs"
+doctest = false
 [dependencies]
 rsomics-common = { version = "0.6" }
 rsomics-bamio = { version = "0.1" }
